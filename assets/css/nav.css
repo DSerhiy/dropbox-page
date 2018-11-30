@@ -1,0 +1,18 @@
+.nav {
+  font-size: inherit;
+  color: inherit;  
+}
+
+.nav .icon {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.nav__item {margin-bottom: 22px;}
+.nav__item:last-child {margin-bottom: 0;}
+.nav__item:hover { color: white;}
+
+.nav__item-title {
+  padding-left: 25px;
+  cursor: pointer;
+}

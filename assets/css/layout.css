@@ -1,0 +1,12 @@
+ .dropbox {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 65px calc(100vh - 65px);
+  grid-template-areas: 
+  'sidebar header'
+  'sidebar folder';
+}
+
+.dropbox__header {grid-area: header;}
+.dropbox__folder {grid-area: folder}
+.dropbox__bar {grid-area: sidebar}

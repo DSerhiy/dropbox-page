@@ -1,0 +1,31 @@
+.storage-info {
+  position: relative;
+  color: white;
+  font-size: 0.8125rem;
+  font-weight: 700;  
+}
+
+.storage-info__btn {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #6f7996;
+  line-height: 18px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #00b5f9;
+  cursor: pointer;
+}
+
+.storage-info__btn::after {content: '+';}
+
+.storage-info__text-line {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.storage-info .progress-line {margin-bottom: 55px;}

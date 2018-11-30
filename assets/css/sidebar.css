@@ -1,0 +1,33 @@
+.sidebar {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #444c63;
+  color: #7f8aa7;
+  font-size: 0.875rem;
+}
+
+.sidebar__icon {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.sidebar__btn {
+  display: block;
+  height: 35px;
+  line-height: 32px;
+  text-align: center;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-decoration: none;
+  border: 1px solid #00b5f9;
+  border-radius: 3px;
+}
+
+.sidebar__btn::before {
+  content: url(../icon/icon_arrow-up.png);
+  position: relative;
+  left: -8px;
+}

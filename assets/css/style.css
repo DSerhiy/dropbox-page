@@ -1,0 +1,17 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+/* blocks */
+@import 'normalize.css';
+@import 'flex.css';
+@import 'layout.css';
+@import 'icon.css';
+@import 'header.css';
+@import 'sidebar.css';
+@import 'nav.css';
+@import 'folder.css';
+@import 'storage-info.css';
+@import 'progress-line.css';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}

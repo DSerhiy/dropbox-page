@@ -1,0 +1,41 @@
+.icon {
+  position: relative;
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #6f7a9a;
+  font-style: normal;
+}
+
+.icon::before {display: inline-block;}
+
+.icon--alert::before {content: url(../icon/icon_alert.png);}
+.icon--upload::before {content: url(../icon/icon_upload.png);}
+.icon--add-folder::before {content: url(../icon/icon_add-folder.png);}
+.icon--upload-folder::before {content: url(../icon/icon_upload-folder.png);}
+.icon--delete::before {content: url(../icon/icon_delete.png);}
+.icon--dropbox::before {content: url(../icon/icon_dropbox.png);}
+.icon--files::before {content: url(../icon/icon_files.png);}
+.icon--photos::before {content: url(../icon/icon_photos.png);}
+.icon--sharing::before {content: url(../icon/icon_sharing.png);}
+.icon--links::before {content: url(../icon/icon_links.png);}
+.icon--events::before {content: url(../icon/icon_events.png);}
+.icon--start::before {content: url(../icon/icon_get-started.png);}
+
+/* tooltips */
+
+.icon:hover::after {
+  position: absolute;
+  display: block;
+  padding: 2px 4px;
+  border: 1px solid #c3cbe1;
+  border-radius: 3px;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon--delete:hover::after {content: 'Delete';}
+.icon--upload:hover::after {content: 'Upload';}
+.icon--add-folder:hover::after {content: 'Add folder';}
+.icon--upload-folder:hover::after {content: 'Upload folder';}
